@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image'
 
 export default function CourseCard({
@@ -25,9 +26,9 @@ export default function CourseCard({
               <p className="text-sky-500 font-bold break-all">{name}</p>
             </div>
             <div className= "my-2">
-              <a href={link} className="w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-1 px-10 rounded" >
+              <button onClick={() => location.href= link} className="w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-1 px-10 rounded" >
                 Acessar Site
-              </a>
+              </button>
             </div>
           </div>
         </div>
