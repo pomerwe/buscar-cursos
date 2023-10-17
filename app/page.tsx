@@ -22,15 +22,21 @@ const data: any[] = [
     image: "/inglescomagringa.png"
   }
 ]
+
+var count = 0;
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-48">
       <div className="grid grid-cols-4 gap-4 justify-between text-center">
-        {data.map((d) => (<CourseCard 
-            name = {d.name}
-            link = {d.link}
-            image= {d.image}
-          />))}
+        {data.map((d) => {
+          count++
+          return (
+            <CourseCard 
+                key = {count}
+                name = {d.name}
+                link = {d.link}
+                image= {d.image}
+              />)})}
       </div>
     </main>
   )
