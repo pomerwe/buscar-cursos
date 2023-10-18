@@ -12,7 +12,7 @@ export default function CourseCard({
   }) {
     return (
         <div className= "">
-          <div className= "flex flex-col ring-1 ring-gray-900/5 p-4 rounded-lg shadow-xl bg-white items-center">
+          <div className= "flex flex-col ring-1 ring-gray-900/5 px-6 py-2 sm:p-4 rounded-lg shadow-xl bg-white items-center">
             <div className= "">
               <Image 
                   src={image}
@@ -26,7 +26,7 @@ export default function CourseCard({
               <p className="text-sky-500 font-bold break-all">{name}</p>
             </div>
             <div className= "my-2">
-              <button onClick={() => location.href= link} className="w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-1 px-10 rounded" >
+              <button onClick={() => location.href= link} className="w-full bg-orange-500 hover:bg-orange-700 text-white font-bold sm:py-1 sm:px-10 py-4 px-12 rounded" >
                 Acessar Site
               </button>
             </div>
