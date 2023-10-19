@@ -6,7 +6,7 @@ const uuid = require('uuid');
 
 export default function CourseCard(card: Card) {
     return (
-          <div className= "flex flex-col rounded-lg bg-white items-center px-7">
+          <div className= "flex flex-col rounded-lg bg-white items-center px-7 h-full">
             <div className= "w-full border-t-8 border-default-blue">
               <Image 
                   src={card.image}

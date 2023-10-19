@@ -19,13 +19,13 @@ const data: Card[] = [
     new Bonus("Garantia de 7 dias"),
   ] 
   ),
-  // new Card(
-  //   "Viver de Youtube", 
-  //   "https://go.hotmart.com/K86750849Y",
-  //   "/viveryoutube.png", 
-  //   "É o treinamento mais completo para Criar Seu Negócio Online a Partir do Zero!  Alex Vargas te leva passo a passo em cada etapa. Funciona mesmo se você for iniciante sem nenhum conhecimento!" ,
-  //   [] 
-  // ),
+  new Card(
+    "Viver de Youtube", 
+    "https://go.hotmart.com/K86750849Y",
+    "/viveryoutube.png", 
+    "É o treinamento mais completo para se tonar um youtuber de sucesso! Aprenda com o Expert em negócios digitais Peter Jordan. Com Anos de experiência em ser youtuber e dono do Ei Nerd!" ,
+    [] 
+  ),
   // new Card(
   //   "Projeto Magra Decidida", 
   //   "https://go.hotmart.com/Y87155547D",
@@ -46,10 +46,11 @@ var count = 0;
 export default function Home() {
   return (
     <main className={montserrat.className + "min-h-screen text-center text-default-blue"}>
-      <div className="flex flex-row items-center justify-center sm:mb-12">
-        <img src="/logo.png" className="w-screen"></img>
+      <div className="flex flex-row items-center justify-center">
+        <img src="/logo.png" className="w-screen sm:hidden"></img>
+        <img src="/logo-land.png" className="w-screen hidden sm:block"></img>
       </div>
-      <div className="flex flex-row items-center justify-center gap-6 ring-offset-2 ring-2 mb-8 px-6 py-1">
+      <div className="flex flex-row items-center justify-center gap-6 sm:gap-12 ring-offset-2 ring-2 mb-8 px-6 py-1">
         <div>
           Início
         </div>
@@ -63,7 +64,7 @@ export default function Home() {
           Aulas Gratuitas
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid sm:grid-cols-4 sm:gap-4 justify-between text-center mb-8">
+      <div className="grid grid-cols-1 gap-4 lg:grid lg:grid-cols-4 lg:gap-4 sm:grid sm:grid-cols-2 sm:gap-4 justify-between text-center lg-8 mb-8">
         {data.map((d) => {
           count++
           return (
