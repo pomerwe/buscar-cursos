@@ -45,9 +45,9 @@ const data: Card[] = [
 var count = 0;
 export default function Home() {
   return (
-    <main className={montserrat.className + " min-h-screen text-center text-default-blue"}>
+    <main className={montserrat.className + "min-h-screen text-center text-default-blue"}>
       <div className="flex flex-row items-center justify-center sm:mb-12">
-        <img src="/logo.png" className="w-screen sm:max-w-3xl"></img>
+        <img src="/logo.png" className="w-screen"></img>
       </div>
       <div className="flex flex-row items-center justify-center gap-6 ring-offset-2 ring-2 mb-8 px-6 py-1">
         <div>
