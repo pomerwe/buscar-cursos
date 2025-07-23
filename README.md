@@ -47,13 +47,6 @@ The application is designed to present course information in a clean, modern, an
    http://localhost:3000
    ```
 
-## 📁 Project Structure
-
-- `/pages` — Next.js routing system  
-- `/components` — Reusable UI elements (e.g., CourseCard, Header)  
-- `/data` — Static or mock JSON data of courses  
-- `/styles` — Styling files or Tailwind configuration  
-
 ## 📌 Notes
 
 - The data can be adapted to fetch live courses from affiliate platforms or CMS integrations  
