@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Buscar Cursos - Online Courses Listing Platform
 
-## Getting Started
+This is a **frontend project** built with **Next.js** that displays a list of online courses from platforms such as **Hotmart** and **Eduzz**.  
+The application is designed to present course information in a clean, modern, and responsive interface.
 
-First, run the development server:
+## 🎯 Project Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Showcase online courses from multiple platforms  
+- Provide an organized and accessible interface for users to explore courses  
+- Practice and demonstrate frontend development using **Next.js** and **React**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** (React framework)  
+- **React**  
+- **CSS Modules** or **Tailwind CSS** for styling  
+- **Axios** or native `fetch` for API/data handling  
+- Static or dynamic data (can be adapted for CMS or external APIs)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🧩 Features
 
-## Learn More
+- Course cards with title, description, platform, and price  
+- Filter or search by platform (Hotmart, Eduzz, etc.)  
+- Fully responsive layout  
+- SEO-friendly via Next.js optimizations  
+- Fast client-side navigation
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Node.js and npm installed on your machine
 
-## Deploy on Vercel
+### Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository  
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+3. Run the development server:  
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and go to:  
+   ```
+   http://localhost:3000
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📁 Project Structure
+
+- `/pages` — Next.js routing system  
+- `/components` — Reusable UI elements (e.g., CourseCard, Header)  
+- `/data` — Static or mock JSON data of courses  
+- `/styles` — Styling files or Tailwind configuration  
+
+## 📌 Notes
+
+- The data can be adapted to fetch live courses from affiliate platforms or CMS integrations  
+- The project can be extended to support affiliate tracking, user login, favorites, etc.  
+- Ideal for educational affiliate marketers or instructors promoting their catalog
+
+---
+
+Made with 💻 using Next.js — promoting online education with modern web technology.
